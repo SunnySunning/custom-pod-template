@@ -76,6 +76,8 @@ module Pod
       # or a framework won't be created, which is now default
       `touch Pod/Classes/ReplaceMe.m`
 
+      `touch Pod/Classes/ReplaceYou.m`
+
       `mv ./templates/ios/* ./`
 
       # remove podspec for osx
